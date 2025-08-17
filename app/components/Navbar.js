@@ -17,13 +17,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-gradient-to-r from-white via-blue-50 to-white shadow-xl border-b-4 border-blue-600 sticky top-0 z-50 backdrop-blur-sm bg-opacity-95">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+    <header className="fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen-lg border border-gray-100 bg-white/80 py-3 shadow backdrop-blur-lg md:top-6 md:rounded-3xl">
+      <div className="px-4">
+        <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0 justify-between">
             <Link href="/" className="flex items-center group">
-              <img src="/CA-Logo.png" alt="Logo" className="h-12" />
+              <img src="/CA-Logo.png" alt="Logo" className="h-9" />
               <span className="ml-3 text-xl font-bold text-gray-800">AKMK Company</span>
             </Link>
           </div>
@@ -210,7 +210,7 @@ const Navbar = () => {
           </div>
         </div>
       )}
-    </nav>
+    </header>
   );
 };
 
