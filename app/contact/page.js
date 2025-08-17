@@ -11,10 +11,10 @@ const ContactPage = () => {
     e.target.reset();
     };
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white py-16">
+    <div className="min-h-screen  bg-gradient-to-br from-blue-50 to-white py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mt-16 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Contact <span className="text-blue-600">Us</span>
           </h1>

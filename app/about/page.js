@@ -2,10 +2,10 @@ import React from 'react'
 
 const AboutPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white py-16">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white pt-24 py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mt-8 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             About <span className="text-blue-600">Ak&MK</span>
           </h1>
@@ -81,8 +81,3 @@ const AboutPage = () => {
 }
 
 export default AboutPage
-
-
-
-
-
